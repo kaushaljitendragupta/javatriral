@@ -1,0 +1,73 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "circle",
+      "request": "launch",
+      "mainClass": "circle",
+      "projectName": "java_d15b4d4e"
+    },
+    {
+      "type": "java",
+      "name": "mandir",
+      "request": "launch",
+      "mainClass": "mandir",
+      "projectName": "java_d15b4d4e"
+    },
+    {
+      "type": "java",
+      "name": "PatternprogrmingP1",
+      "request": "launch",
+      "mainClass": "PatternprogrmingP1",
+      "projectName": "java_d15b4d4e"
+    },
+    {
+      "type": "java",
+      "name": "ac",
+      "request": "launch",
+      "mainClass": "ac",
+      "projectName": "java_d15b4d4e"
+    },
+    {
+      "type": "java",
+      "name": "myfirstprograminjava",
+      "request": "launch",
+      "mainClass": "myfirstprograminjava",
+      "projectName": "java_d15b4d4e"
+    },
+    {
+      "type": "java",
+      "name": "linearsech",
+      "request": "launch",
+      "mainClass": "linearsech",
+      "projectName": "java_d15b4d4e"
+    },
+    {
+      "type": "java",
+      "name": "kaushal",
+      "request": "launch",
+      "mainClass": "kaushal",
+      "projectName": "java_d15b4d4e"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "e:/pwjava/java",
+      "program": "e:/pwjava/java/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}

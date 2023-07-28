@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Loopawati {
+public class exp {
 
        
          /**
