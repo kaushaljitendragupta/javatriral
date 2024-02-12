@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "hw1",
+      "request": "launch",
+      "mainClass": "hw1",
+      "projectName": "javatriral_2959b622"
+    },
+    {
+      "type": "java",
       "name": "Areaofsquare",
       "request": "launch",
       "mainClass": "Areaofsquare",
