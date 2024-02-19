@@ -19,8 +19,10 @@ public static void linearsearch(int arr[],int x){
     }
 }
     public static void main(String[] args) {
-        int arr[]={5,6,2,3,1,4};
-        int x=4;
+        int arr[]={5,6,2,3,1,4,3,9,11,66,78};
+        Scanner scan=new Scanner(System.in);
+        
+        int x=scan.nextInt();
  linearsearch( arr, x);
    // binarysearch(arr ,x );
     }

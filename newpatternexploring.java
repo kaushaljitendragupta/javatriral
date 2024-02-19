@@ -11,7 +11,12 @@ public class newpatternexploring {
             System.out.print("   "); 
            }else{
             System.out.print("*  ");
-           }  }
+           } 
+    }
+            
+        
+        }
+         
             
           
     

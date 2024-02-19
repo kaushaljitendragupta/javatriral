@@ -3,6 +3,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "patter",
+      "request": "launch",
+      "mainClass": "patter",
+      "projectName": "javatriral_2959b622"
+    },
+    {
+      "type": "java",
+      "name": "patternprograming",
+      "request": "launch",
+      "mainClass": "patternprograming",
+      "projectName": "javatriral_2959b622"
+    },
+    {
+      "type": "java",
+      "name": "pwskill",
+      "request": "launch",
+      "mainClass": "pwskill",
+      "projectName": "javatriral_2959b622"
+    },
+    {
+      "type": "java",
+      "name": "schoolgread",
+      "request": "launch",
+      "mainClass": "schoolgread",
+      "projectName": "javatriral_2959b622"
+    },
+    {
+      "type": "java",
       "name": "hw1",
       "request": "launch",
       "mainClass": "hw1",

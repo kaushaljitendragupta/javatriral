@@ -18,4 +18,14 @@ public class schoolgread {
             System.out.println("you are geting c and you are fail");
         } 
     }
+  
+
+
+
+
+
+
+
+
+
 }
