@@ -1,4 +1,4 @@
-answer 1:
+Answer 1:
 By using the simple for loop.
 By using the sorting algorithm.
 By using the hashing.
