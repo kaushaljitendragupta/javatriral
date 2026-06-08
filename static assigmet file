@@ -1,0 +1,35 @@
+Java Assignment Answers
+1. Why do we need static keyword in Java? Explain with an example?
+The static keyword is used when a member belongs to the class rather than to individual objects.
+A static variable is shared among all objects of the class. 
+Static methods can be called without creating an object.
+
+Example:
+class Test {
+    static int count = 0;
+}
+All objects of Test share the same count variable.
+2. What is class loading and how does the Java program actually execute?
+Class loading is the process of loading .class files into JVM memory. The JVM loads required classes using 
+the Class Loader, verifies them, allocates memory, and initializes static members. After loading the main class, 
+JVM calls the main() method and starts program execution.
+3. Can we mark a local variable as static?
+No. Local variables are created inside methods and exist only during method execution. The static keyword can only 
+be used with class members (variables, methods, blocks, and nested classes), not with local variables.
+4. Why is the static block executed before the main method in Java?
+A static block is executed when the class is loaded by the JVM. Since the JVM must load and initialize the class before 
+calling main(), static blocks execute before the main() method.
+5. Why is a static method also called a class method?
+A static method belongs to the class itself, not to any object. It can be called using the class name, such as Math.sqrt() 
+or ClassName.methodName(). Therefore, it is called a class method.
+6. What is the use of static blocks in Java?
+Static blocks are used for one-time initialization of static variables, loading configuration settings, establishing database
+drivers, or performing tasks that must happen when the class is loaded.
+7. Difference between Static and Instance Variables
+Static Variable: Belongs to the class, one copy shared by all objects, created when the class is loaded.
+
+Instance Variable: Belongs to an object, each object has its own copy, created when the object is created.
+8. Difference between Static and Non-Static Members
+Static Members: Belong to the class, accessed using class name, can be used without creating an object.
+
+Non-Static Members: Belong to objects, require object creation for access, can directly access both static and non-static members.
