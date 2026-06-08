@@ -1,0 +1,37 @@
+Here are the answers to your assignment questions regarding the Java Collection Framework: 
+1. What is the Collection framework in Java? 
+The Collection framework is a unified architecture for representing and manipulating collections of objects. It provides: 
+
+• Interfaces: Abstract data types like , , and . 
+• Implementations: Concrete classes like , , and . 
+• Algorithms: Methods for searching, sorting, and manipulating data. 
+
+2. Difference between ArrayList and LinkedList 
+| Feature | ArrayList | LinkedList  |
+| --- | --- | --- |
+| Data Structure | Dynamic Array. | Doubly Linked List.  |
+| Manipulation | Slow (requires shifting elements). | Fast (only pointer changes).  |
+| Access | Fast ($O(1)$) via index. | Slow ($O(n)$) as it must traverse.  |
+
+3. Difference between Iterator and ListIterator
+• Iterator: Can traverse , , and  (via entry sets) in the forward direction only. 
+• ListIterator: Specifically for  objects; supports bidirectional traversal (forward and backward) and element modification during iteration. 
+
+4. Difference between Iterator and Enumeration
+• Enumeration: A legacy interface; it is read-only and does not allow removing elements. 
+• Iterator: The modern replacement; it is safer and allows the caller to remove elements from the underlying collection during iteration. 
+
+5. Difference between List and Set 
+• List: An ordered collection that allows duplicate elements (e.g., ). 
+• Set: An unordered collection that prohibits duplicate elements (e.g., ). 
+
+6. Difference between HashSet and TreeSet
+• HashSet: Uses a hash table; it offers constant-time performance but provides no guarantee of order. 
+• TreeSet: Uses a Tree structure; it is slower than HashSet but maintains elements in a sorted/natural order. 
+
+7. Difference between Array and ArrayList 
+• Array: Has a fixed size once created and can hold both primitives and objects. 
+• ArrayList: A dynamic-sized collection that can grow or shrink automatically; it can only hold objects (uses "wrappers" for primitives). 
+
+AI can make mistakes, so double-check responses
+
