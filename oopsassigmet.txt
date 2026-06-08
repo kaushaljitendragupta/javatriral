@@ -1,0 +1,23 @@
+assignment questions on Object-Oriented Programming (OOPs) in Java:
+1. What is Inheritance in Java?Inheritance is a mechanism where one class (child/subclass) acquires the properties and behaviors 
+(fields and methods) of another class (parent/superclass). It promotes code reusability and establishes a "is-a" relationship.
+2. What is superclass and subclass?Superclass (Parent Class): The class whose features are inherited.Subclass (Child Class):
+The class that inherits features from the superclass and can also add its own fields and methods.
+3. How is Inheritance implemented/achieved in Java?Inheritance is achieved using the extends keyword.javaclass Animal { }
+class Dog extends Animal { } // Dog inherits from Animal
+4. What is polymorphism?Polymorphism (meaning "many forms") allows objects to be treated as instances of their parent class rather than their actual class.
+It allows one interface to be used for a general class of actions.
+5. Differentiate between method overloading and overriding.FeatureMethod OverloadingMethod OverridingOccurrenceWithin the same class.Between superclass and subclass.
+ParametersMust be different.Must be the same.BindingCompile-time (Static).Runtime (Dynamic).
+6. What is abstraction explained with an Example?Abstraction is the process of hiding internal implementation details and showing only the essential features
+to the user.Example: When you send an SMS, you know how to type and click "send," but you don't need to know the complex protocol used to transmit the message.
+7. What is the difference between an abstract method and final method in Java?Abstract Method: Has no body and must be overridden by a subclass. 
+It is used to enforce a specific structure.Final Method: Has a body but cannot be overridden by any subclass. It is used to prevent modification of the implementation.
+8. What is the final class in Java?A final class is a class that cannot be inherited (subclassed). For example, the String class in Java is final.
+9. Differentiate between abstraction and encapsulation.Abstraction: Focuses on what an object does (design level).
+It hides complexity using abstract classes and interfaces.Encapsulation: Focuses on how an object does it (implementation level).
+It wraps data (variables) and code (methods) together into a single unit and restricts direct access using access modifiers like private.
+10. Difference between Runtime and compile time polymorphism explain with an exampleCompile-time Polymorphism: Resolved during compilation. 
+Example: Method Overloading.Example: Having two add() methods, one for integers and one for doubles.Runtime Polymorphism: Resolved during execution.
+Example: Method Overriding.Example: A Shape class has a draw() method, and the Circle subclass provides its own specific version of draw(). 
+At runtime, the JVM decides which draw() to call based on the object type.
