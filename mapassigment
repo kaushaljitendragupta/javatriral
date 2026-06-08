@@ -1,0 +1,41 @@
+Assignment Answers: Java Collections & Generics 
+
+1. What is a Map in Java?
+A  is an object that maps keys to values. It cannot contain duplicate keys, and each key can map to at most one value. It is part of the  package. 
+2. Commonly used implementations of Map: 
+
+	• HashMap: Most common; stores keys in a hash table. 
+	• TreeMap: Stores keys in a sorted tree structure. 
+	• LinkedHashMap: Maintains the order of insertion. 
+
+3. Difference between HashMap and TreeMap: 
+| Feature | HashMap | TreeMap  |
+| --- | --- | --- |
+| Ordering | No guaranteed order. | Sorted by natural order or a Comparator.  |
+| Null Keys | Allows one null key. | Does not allow null keys.  |
+| Performance | $O(1)$ for basic operations. | $O(\log n)$ for basic operations.  |
+
+4. How to check if a key exists in a Map:Use the  method. It returns  if the map contains a mapping for the specified key. 
+5. What are Generics in Java?
+Generics allow you to parameterize types. They enable types (classes and methods) to be parameters when defining classes
+, interfaces, and methods, providing stronger type checks at compile time. 
+6. Benefits of using Generics: 
+
+	• Type Safety: Catches type errors at compile time rather than runtime. 
+	• Elimination of Casts: No need to manually cast objects when retrieving them from a collection. 
+	• Code Reusability: Allows you to write algorithms that work on different types. 
+
+7. What is a Generic Class?
+A class that is defined with one or more type parameters. For example: . The actual type is specified when the class is instantiated. 
+8. What is a Type Parameter?
+A placeholder for a type that is passed to a generic class or method. It is usually represented by a single uppercase letter
+(e.g.,  for Type,  for Element,  for Key). 
+9. What is a Generic Method?
+A method that introduces its own type parameters. The scope of the type parameter is limited to the method where it is declared. 
+10. Difference between ArrayList and ArrayList: 
+
+	• ArrayList (Raw Type): Can hold any . It lacks type safety and requires manual casting. 
+	• ArrayList (Generic): Restricted to a specific type . It provides compile-time type safety and removes the need for casting. 
+
+AI can make mistakes, so double-check responses
+
