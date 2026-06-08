@@ -1,0 +1,32 @@
+Java Multithreading Assignment Answers 
+1. What is Multithreading and why is it important? 
+Multithreading is the ability of a CPU to execute multiple threads concurrently within a single process. 
+
+• Importance: It allows for maximum utilization of the CPU. By performing multiple tasks simultaneously, 
+it keeps the CPU busy and prevents idle time during I/O operations. 
+
+2. Benefits of Multithreading 
+• Improved Performance: Better resource utilization leads to faster execution. 
+• Responsiveness: Keeps applications (like GUIs) responsive while background tasks run. 
+• Parallelism: Tasks can run truly simultaneously on multi-core systems. 
+• Resource Sharing: Threads share the same memory space, making communication efficient. 
+
+3. What is a Thread in Java?
+A Thread is a "lightweight" subprocess. It is the smallest unit of processing that can be scheduled by the operating system. 
+In Java, all threads are instances of the  class. 
+4. Two ways of implementing threads in Java 1. Extending the  class: Inheriting from  and overriding its  method. 
+2. Implementing the  interface: Defining the  method in a class that implements  and passing it to a  object. 
+
+5. Thread vs. Process | Feature | Process | Thread  |
+| --- | --- | --- |
+| Definition | An executing program (heavyweight). | A subset of a process (lightweight).  |
+| Memory | Has its own memory space. | Shares memory with other threads of the same process.  |
+| Communication | Difficult/Expensive (IPC). | Easy and fast.  |
+
+6. How to create Daemon threads? 
+A Daemon thread is a low-priority thread that runs in the background (e.g., Garbage Collector). To create one, use the  method before starting the thread: 
+7. What are  and  methods?
+• : A method of the  class used for inter-thread communication. It releases the lock and waits until another thread calls . 
+• : A static method of the  class that pauses the current thread for a specified duration. It does not release the lock. 
+
+
