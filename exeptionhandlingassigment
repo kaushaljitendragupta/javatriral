@@ -1,0 +1,35 @@
+Java Assignment: Errors and Exceptions 
+Here are the answers to your assignment questions regarding Java's error-handling mechanism. 
+1. Different Types of Errors in Java Errors in Java are generally classified into three categories: 
+
+• Compile-time Errors: Syntax mistakes (e.g., missing semicolons) caught by the compiler before the program runs. 
+• Runtime Errors: Occur during execution, often due to logic issues or environmental factors (e.g., dividing by zero). 
+• Logical Errors: The program runs without crashing but produces incorrect results because the code's logic is flawed. 
+
+2. What is an Exception?
+An Exception is an event that occurs during the execution of a program that disrupts the normal flow of instructions.
+It is an object which is thrown at runtime when an unexpected condition arises. 
+3. Handling Exceptions with an Example Exceptions are handled using the  block. 
+
+• Try: Contains the code that might throw an exception. 
+• Catch: Contains the code to handle the exception if it occurs. 
+
+Example: 
+4. Why do we need Exception Handling?
+It ensures the graceful termination of a program. Without handling, a program would crash abruptly,
+potentially leaving resources (like files or database connections) open and providing a poor user experience. 
+5. Exception vs. Error | Feature | Exception | Error  |
+| --- | --- | --- |
+| Recovery | Possible to handle and recover. | Generally irrecoverable.  |
+| Cause | Caused by the application/logic. | Caused by the environment (JVM/System).  |
+| Examples | , | ,  |
+
+6. Types of Exceptions • Checked Exceptions: Checked at compile-time (e.g., ). 
+• Unchecked Exceptions (Runtime): Checked at runtime (e.g., ). 
+
+7. Can we use  alone? 
+No. A  block must be followed by at least one  block or a  block. Using  by itself will result in a compile-time error.
+Note that "try-with-resources" is a specific syntax that also requires the resource to implement . 
+
+AI can make mistakes, so double-check responses
+
