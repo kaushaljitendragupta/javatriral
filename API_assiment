@@ -1,0 +1,59 @@
+Here are the answers to your Java assignment questions. 
+1. Display Current Date and Time You can use  from the  package for a modern approach. 
+import java.time.LocalDateTime;
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println(LocalDateTime.now());
+    }
+}
+
+
+
+
+2. Date to String Conversion ("MM/dd/yyyy") The  class is used to define and apply the specific format. import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+
+public class Main {
+    public static void main(String[] args) {
+        LocalDate date = LocalDate.now();
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MM/dd/yyyy");
+        String formattedDate = date.format(formatter);
+        System.out.println(formattedDate);
+    }
+}
+
+
+
+
+
+3. Collections vs. Streams | Feature | Collections | Streams  |
+| --- | --- | --- |
+| Data | Holds and stores data. | Computes data on demand; doesn't store it.  |
+| Modification | You can add/remove elements. | Elements cannot be added or removed.  |
+| Iteration | Iterated manually (external iteration). | Iterated internally (internal iteration).  |
+
+Example:A Collection is like a movie stored on a hard drive (all data is there). A Stream is like a video being streamed online (data arrives as you need it). 
+4. Enums in Java An Enum (enumeration) is a special "class" that represents a group of constants (unchangeable variables). 
+Example: 
+enum Level { LOW, MEDIUM, HIGH }
+
+public class Main {
+    public static void main(String[] args) {
+        Level myVar = Level.MEDIUM;
+        System.out.println(myVar);
+    }
+}
+
+
+
+
+5. In-built Annotations Annotations provide metadata about the code. Common built-in ones include: 
+
+• : Ensures a method is overriding a superclass method. 
+• : Instructs the compiler to ignore specific warnings. 
+• : Marks a method or class as outdated/no longer recommended for use. 
+• : Marks an interface as having exactly one abstract method. 
+
+AI can make mistakes, so double-check responses
+
